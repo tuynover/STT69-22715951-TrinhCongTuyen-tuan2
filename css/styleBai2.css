@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+#div_big{
+    width: 1100px;
+    font-size: 25px;
+    box-shadow: 5px 10px 10px #888888,-5px -10px 10px #888888;
+}
+header {
+    
+    margin-top: 13px;
+    margin-left: 13px;
+    width: 98%;
+    height: 150px;
+    background: #ffff url(/img/background.png)     
+}
+ header h1{
+    font-size: 40px;
+}
+
+header h2{
+    font-size: 30px;
+}
+
+header h1,h2{
+    position: relative;
+    top: -150px;
+    left: 140px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+nav{
+    width: 98%;
+    height: 30px;
+    margin-left: 13px;
+    background-color:rgb(165, 163, 163);
+}
+
+.menu_nav li{
+    display: inline;
+    line-height: 20px;
+    padding: 15px 15px;
+}
+
+.menu_nav li a{
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.menu_nav li a:hover{
+    color: black;
+}
+
+section{
+    float: left;
+    width: 70%;
+    height: 800px;
+}
+
+article {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 98%;
+    height: 390px;
+    background-color: white
+
+}
+
+.se1 h5{
+    color: rgb(252, 142, 161);
+    margin-bottom: 20px;
+}
+
+.se2 h5{
+    color: rgb(252, 142, 161);
+    margin-bottom: 20px;
+}
+
+aside{
+    float: left;
+    width: 30%;
+    height: 800px;
+}
+
+figure{
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+    width: 98%;
+    height: 390px;
+    background-color: white;
+
+} 
+
+.as1{
+    color: rgb(252, 142, 161);
+}
+
+.as2 h3{
+    margin-top: 20px;
+    color: rgb(252, 142, 161);
+}
+
+.as1 h5{
+    color: rgb(252, 142, 161);
+    margin-top: 10px;
+    width: 90%;
+    border-bottom: 1px solid peachpuff;
+    padding-bottom: 15px;
+    letter-spacing: 3px;
+    
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color:rgb(165, 163, 163);
+}

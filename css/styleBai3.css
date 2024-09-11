@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+}
+#div_body{
+    width: 1000px;
+    height: auto;
+    border: 1px solid black;
+    background-image: url(/img/background.jpg); 
+}
+nav{
+    float: left;
+    border-right: 2px solid green;
+    width: 22%;
+    height: 860px;
+    margin-left: 1%;
+}
+section{
+    border: 1px;
+    width: 75%;
+    height: 800px;
+    margin-left: 24%;
+}
+#article_sec{
+    border: 1px;
+    width: 73%;
+    height: 550px;
+    float: left;
+
+}
+#art_sec2{
+    border: 1px;
+    width: 25%;
+    height: 700px;
+    float: right;
+}
+#art_3{
+    border: 1px;
+    width: 70%;
+    height: 330px;
+    float: left;
+    margin-top: -20px;
+}
+footer{
+    border-top:2px solid green ;
+    width: 970px; 
+    height: 45px;
+    clear: both;
+    padding: 3px;
+    text-align: center;
+}
+.menu_nav li{
+    line-height: 30px;
+    width: 165px;
+    list-style: none;
+    text-align: start;
+    margin-left: -20%;
+    padding: 5px;
+}
+.menu_nav li a{
+    color:rgb(90, 43, 137);
+    text-decoration: none;
+    font-size: 20px;
+}
+.menu_nav li a:hover{
+    color: black;
+    
+}
+#div_nav{
+    border: 2px;
+    margin-right: 75px;
+    height: 210px;
+    width: 180px;
+    background-color: whitesmoke;
+    line-height: 30px;
+    box-shadow:3px 3px gainsboro,6px 6px grey;
+    margin-top: 20px;
+
+}#div_art{
+    border: 1px solid green;
+    width:71% ;
+    height: 40px;
+    float: left;
+    margin-left: 10px;
+    background-color: green;
+    margin-top: 10px;
+
+}#pic{
+    float: right;
+    margin-right: 2px;
+    margin-top: 35%;
+}#Chu{
+    font-size: 30px;
+    color: white;
+    margin-left: 90px;
+}p{
+    color: white;
+}
+h3{
+    border: 1px solid green;
+    width:70% ;
+    height: 30px;
+    float: left;
+    margin-left: -5px;
+    background-color: green;
+    margin-top: 5px;
+    color: white;
+    text-align: left;
+
+}h3>b{
+    margin-left: 10px;
+}
+.ul_sec li{
+    color: white;
+    margin-top: 10px;
+    margin-left: 10px;
+}.ul_sec{
+    padding-top: 25px;
+}
+#k{
+    margin-bottom: 20%;
+    padding: auto;
+}
+hr{
+    color: green;
+}

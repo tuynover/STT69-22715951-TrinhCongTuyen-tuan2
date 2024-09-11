@@ -1,0 +1,153 @@
+div{
+    border: 2px solid rgb(185, 60, 60);
+    width: 100%;
+    height: auto;
+}
+
+header{
+    border-bottom: 2px solid rgb(185, 60, 60);
+    width: 100%;
+    min-height: 80px;
+    color: rgb(220, 118, 121);
+    text-align: center;
+    font-size: 30px;
+}
+
+menu{
+    margin-top: -1%;
+    border: 1px;
+    min-width: none;
+    min-height: 50px; 
+    background-color: rgb(220, 118, 121);
+    padding-top: 4px;
+}
+
+nav{
+    border: 1px;
+    width: 20%;
+    min-height: 700px;
+    float: left;
+}
+
+nav img{
+    border-radius: 50%;
+    box-shadow: 10px 5px 5px pink;
+}
+
+section{
+    border: 1px;
+    width: 50%;
+    min-height: 700px;
+    float: left;
+    margin-left: 1%;
+}
+
+aside{
+    border: 1px;
+    width: 26%;
+    min-height: 700px;
+    margin-left: 73%;
+    background-color: black;
+}
+
+footer{
+    border: 2px solid  rgb(185, 60, 60);
+    width: 99.9%;
+    min-height: 70px;
+    clear: both;
+    background-color: rgb(220, 118, 121);
+}
+
+table{
+    padding: 30px;
+} 
+
+header h2{
+    text-align: center;
+    color:  rgb(220, 118, 121);
+    text-shadow: 5px 10px 10px;
+}
+
+.table_menu li{
+    display: inline;
+   line-height: 20px;
+   padding: 5px;
+    font-size: 20px;
+}
+
+.table_menu li a{
+    color:cornsilk;
+    text-decoration: none;
+}
+
+.table_menu li a:hover{
+    color: crimson;
+}
+
+#gachdoc{
+    color: blue;
+}
+
+.div_nav{
+    padding: 6px;
+    border-radius: 10% / 50%;
+    width: 290px;
+    height: 40px;
+    background-color:rgb(220, 118, 121);
+    font-size: 17px;
+    color: aliceblue;
+    text-indent: 30px;
+
+}#pic{
+    border-radius: 50%;
+    width: 310px;
+    height: 230px;
+    margin-top: 20px;
+    
+}.v_section{
+    color: red;
+}
+.table_sec{
+    width: 90%;
+}
+.div_section{
+    border: 1px;
+    background-color:  rgb(220, 118, 121);
+    width: 60%;
+    height: 50px;
+    font-size: 30px;
+    margin-left: 180px;
+    color: red;
+}
+tr>td{
+    padding: 10px;
+}input{
+    height: 30px;
+}#rad{
+    height: 10px;
+}
+.chu_div_sec{
+    font-size: 30px;
+}
+.pic_asdie{
+    width: 340px;
+    height: 230px;
+    margin-top: -5%;;
+}.div_p_aside{
+    width: 300px;
+    margin-top: -5%;
+    text-align: left;
+    margin-left: -10%;
+    padding: 10px;
+    border: 1px;
+}.p_tieude{
+    color: white;
+    
+}.chu_p{
+    margin-top: 0%;
+}
+#chu_footer{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
